@@ -33,8 +33,6 @@
 - **DBMS_The_learning_house** — database-oriented system design and structured backend logic
 - **Thelearninghouse** — educational / learning platform development project
 
-<br>
-
 ###
 
 <h4 align="left">Languages & Frameworks</h4>
