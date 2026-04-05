@@ -30,3 +30,7 @@ I have a strong passion for data analysis, time series forecasting, and competit
 </a>
 
 ![Thành phố 3D](profile-3d-contrib/profile-season-animate.svg)
+
+<img src="https://github-readme-stats.vercel.app/api?username=haminh109&show_icons=true&theme=radical&rank_icon=github" alt="GitHub Stats" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=haminh109&layout=compact&theme=radical" alt="Top Languages" />
