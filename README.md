@@ -92,4 +92,6 @@
 
 ###
 
-![Ocean Wave](https://gradient-svg-generator.vercel.app/api/svg?text=Ha%20Quang%20Minh&template=ocean-wave&height=90)
+<div>
+  <img style="width:100%" src="https://capsule-render.vercel.app/api?type=soft&height=90&section=header&color=0:0f2027,50:203a43,100:2c5364" />
+</div>
