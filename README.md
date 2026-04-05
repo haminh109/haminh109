@@ -80,10 +80,11 @@
 </div>
 
 <br>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=haminh109&hide_border=true&radius=12" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-light.svg">
+  <img alt="Breakout Game" src="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-light.svg">
+</picture>
 
 ![Thành phố 3D](profile-3d-contrib/profile-gitblock.svg)
 ###
