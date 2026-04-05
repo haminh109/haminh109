@@ -10,43 +10,86 @@ GAP = 3
 PAD_X = 18
 PAD_Y = 18
 TITLE_H = 26
-
 def fetch_contributions(username: str):
-    url = f"https://github.com/users/{username}/contributions"
-    req = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": "Mozilla/5.0",
-            "Accept": "text/html,application/xhtml+xml"
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        raise RuntimeError("Thiếu GITHUB_TOKEN trong environment.")
+
+    today = dt.date.today()
+    start = today - dt.timedelta(days=371)
+
+    query = """
+    query($login: String!, $from: DateTime!, $to: DateTime!) {
+      user(login: $login) {
+        contributionsCollection(from: $from, to: $to) {
+          contributionCalendar {
+            weeks {
+              contributionDays {
+                date
+                weekday
+                contributionCount
+                contributionLevel
+              }
+            }
+          }
         }
+      }
+    }
+    """
+
+    payload = {
+        "query": query,
+        "variables": {
+            "login": username,
+            "from": f"{start.isoformat()}T00:00:00Z",
+            "to": f"{today.isoformat()}T23:59:59Z",
+        },
+    }
+
+    req = urllib.request.Request(
+        "https://api.github.com/graphql",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+            "User-Agent": "fun-zone-generator",
+        },
+        method="POST",
     )
-    text = urllib.request.urlopen(req).read().decode("utf-8", errors="ignore")
 
-    tags = re.findall(r"<rect\b[^>]*data-date=\"[^\"]+\"[^>]*>", text)
-    data = {}
-    for tag in tags:
-        attrs = dict(re.findall(r"([:@\w-]+)=\"([^\"]*)\"", tag))
-        if "data-date" not in attrs:
-            continue
-        d = dt.date.fromisoformat(attrs["data-date"])
-        level = int(attrs.get("data-level", "0") or 0)
-        count = int(attrs.get("data-count", "0") or 0)
-        data[d] = {"level": level, "count": count}
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        raw = json.loads(resp.read().decode("utf-8"))
 
-    if not data:
-        raise RuntimeError("Không parse được contribution calendar từ GitHub.")
+    if "errors" in raw:
+        raise RuntimeError(f"GraphQL error: {raw['errors']}")
 
-    start = min(data.keys())
-    end = max(data.keys())
+    user = raw.get("data", {}).get("user")
+    if not user:
+        raise RuntimeError("Không lấy được user từ GraphQL response.")
 
-    cols = ((end - start).days // 7) + 1
+    weeks = (
+        user["contributionsCollection"]["contributionCalendar"]["weeks"]
+    )
+    if not weeks:
+        raise RuntimeError("Contribution calendar rỗng.")
+
+    level_map = {
+        "NONE": 0,
+        "FIRST_QUARTILE": 1,
+        "SECOND_QUARTILE": 2,
+        "THIRD_QUARTILE": 3,
+        "FOURTH_QUARTILE": 4,
+    }
+
+    cols = len(weeks)
     grid = [[0 for _ in range(cols)] for _ in range(ROWS)]
 
-    for d, info in data.items():
-        col = (d - start).days // 7
-        row = (d.weekday() + 1) % 7
-        if 0 <= row < ROWS and 0 <= col < cols:
-            grid[row][col] = info["level"]
+    for c, week in enumerate(weeks):
+        for day in week["contributionDays"]:
+            r = int(day["weekday"])
+            lvl = level_map.get(day["contributionLevel"], 0)
+            if 0 <= r < ROWS:
+                grid[r][c] = lvl
 
     return grid, cols
 
