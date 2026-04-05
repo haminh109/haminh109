@@ -1,20 +1,18 @@
 # Hi there 👀
 
-Hey, I'm **Hà Quang Minh**! Currently a 3rd-year student majoring in Data Science in Economics and Business at National Economics University in Vietnam.
+I'm **Hà Quang Minh**! Currently a 3rd-year student majoring in Data Science in Economics and Business at National Economics University in Vietnam.
 
 I have a strong passion for data analysis, time series forecasting, and competitive programming. I enjoy working with real-world datasets and building statistical models to solve complex problems, from scientific research to practical data pipelines.
 
 ### 🛠 Languages & Frameworks
 <p align="left">
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://skillicons.dev/icons?i=cpp,r,python" alt="Languages" />
 </p>
 
 ### 💻 Tools & Platforms
 <p align="left">
-  <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=black" alt="Power BI" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white" alt="Jupyter" />
+  <img src="https://skillicons.dev/icons?i=jupyter,macos" alt="Jupyter & macOS" />
+  <img src="https://img.shields.io/badge/-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=black" alt="Power BI" />
 </p>
 
 ### 📜 Certifications
