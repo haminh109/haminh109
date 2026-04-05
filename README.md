@@ -80,6 +80,7 @@
 </div>
 
 ## Fun zone
+
 <table>
   <tr>
     <td align="center">
