@@ -1,12 +1,10 @@
 <div align="center">
 
-# Hi there, I'm Ha Quang Minh 👋
+# Ha Quang Minh
 
-### Data Science in Economics & Business Student | AI • ML • Econometrics • Applied Research
+### Data Science × Economics × AI
 
-<p>
-  I build at the intersection of <b>data science</b>, <b>machine learning</b>, <b>economic modeling</b>, and <b>real-world decision systems</b>.
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=2563EB&center=true&vCenter=true&width=900&lines=Building+models+that+survive+real+data;AI+%7C+Machine+Learning+%7C+Econometrics;Forecasting%2C+Fraud+Detection%2C+Decision+Systems;From+macro+signals+to+practical+tools" alt="Typing SVG" />
 
 <p>
   <a href="https://github.com/haminh109">
@@ -19,44 +17,42 @@
     <img src="https://img.shields.io/badge/ORCID-0009--0009--0143--5042-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" />
   </a>
   <a href="https://www.facebook.com/haaminh109">
-    <img src="https://img.shields.io/badge/Facebook-Ha%20Quang%20Minh-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+    <img src="https://img.shields.io/badge/Facebook-haaminh109-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
   </a>
 </p>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=2F81F7&center=true&vCenter=true&width=900&lines=AI+Engineer+in+training;Data+Science+%7C+Machine+Learning+%7C+Econometrics;Building+forecasting%2C+fraud+detection%2C+and+research-driven+systems;Turning+data+into+models+and+models+into+decisions" alt="Typing SVG" />
 
 </div>
 
 ---
 
-## About Me
+## Hi there
 
-- 🎓 I am studying **Data Science in Economics and Business**
-- 🏫 I am interested in the intersection of **AI, machine learning, econometrics, forecasting, and applied analytics**
-- 🔬 I enjoy building projects that combine **technical rigor** with **practical impact**
-- 📈 My work is especially oriented toward **economic modeling**, **fraud detection**, **time series analysis**, and **decision-support systems**
-- 🚀 I am continuously improving my skills in both **research-oriented development** and **production-minded engineering**
+I'm **Ha Quang Minh** — a Data Science in Economics and Business student with a strong interest in **AI**, **machine learning**, **econometrics**, and **research-driven engineering**.
+
+I like building things where the model is not the endpoint — the endpoint is a **useful decision**, a **robust system**, or a **result that actually survives contact with real-world data**.
 
 ---
 
-## Current Focus
+## What I work on
 
-- Real-time **GDP nowcasting** and macroeconomic forecasting
-- **Fraud detection** and risk analytics
-- Applied **machine learning** for structured and tabular data
-- Building systems that connect **data, models, and decisions**
-- Research-driven projects with strong methodological grounding
+- **Macroeconomic forecasting** and real-time nowcasting
+- **Fraud detection** and risk-oriented analytics
+- **Machine learning for structured/tabular data**
+- **Research pipelines** with reproducibility in mind
+- **Applied AI systems** that connect data → models → decisions
 
 ---
 
-## Tech Stack
+## Languages & Frameworks
 
-### Languages & Frameworks
 <p>
   <img src="https://skillicons.dev/icons?i=python,rust,cpp,r,ts,react,flutter,fastapi&perline=8" />
 </p>
 
-### Tools & Platforms
+---
+
+## Tools & Platforms
+
 <p>
   <img src="https://skillicons.dev/icons?i=vscode,git,github,jupyter,postgresql,linux,windows&perline=8" />
 </p>
@@ -69,66 +65,49 @@
 
 ---
 
-## Featured Projects
+## Selected Repositories
 
-### 1. Real-Time GDP Growth Nowcasting
-A research-oriented project on **GDP growth nowcasting** using econometric and machine learning approaches, with emphasis on real-time information flow, macroeconomic indicators, and forecasting reliability.
+### [Nowcasting-GDP-Growth](https://github.com/haminh109/Nowcasting-GDP-Growth)
+A research-oriented project on **real-time GDP growth nowcasting**, combining econometric structure with practical forecasting workflow.
 
-🔗 **Repository:** [Nowcasting-GDP-Growth](https://github.com/haminh109/Nowcasting-GDP-Growth)
+### [Fraud-Detection](https://github.com/haminh109/Fraud-Detection)
+A machine learning project focused on **detecting suspicious patterns** and supporting **risk-aware decision-making**.
 
-### 2. Fraud Detection
-A project focused on **detecting suspicious financial patterns**, improving risk awareness, and supporting intelligent decision-making through data-driven methods.
+### [DBMS_The_learning_house](https://github.com/haminh109/DBMS_The_learning_house)
+A structured database project emphasizing **data organization**, **system logic**, and **backend thinking**.
 
-🔗 **Repository:** [Fraud-Detection](https://github.com/haminh109/Fraud-Detection)
-
-### 3. Database Management System Project
-A structured project centered on **database design, data organization, and system logic**, supporting practical learning in backend data management.
-
-🔗 **Repository:** [DBMS_The_learning_house](https://github.com/haminh109/DBMS_The_learning_house)
-
-### 4. Educational / Learning Platform Project
-A project related to **learning systems and platform development**, with potential applications in educational workflows and digital product development.
-
-🔗 **Repository:** [Thelearninghouse](https://github.com/haminh109/Thelearninghouse)
+### [Thelearninghouse](https://github.com/haminh109/Thelearninghouse)
+A web-oriented project tied to **learning systems**, digital workflow design, and applied product thinking.
 
 ---
 
-## Research Interests
+## A few things about me
 
-- Machine Learning
-- Econometrics
-- Time Series Forecasting
-- Applied AI
-- Decision Intelligence
-- Fraud Analytics
-- Economic Data Science
-- Real-World Predictive Modeling
+- I am especially drawn to problems where **theory meets messy data**
+- I prefer projects that are **methodologically solid** and still **practically useful**
+- I enjoy moving between **research mode** and **builder mode**
+- I am interested in systems that sit at the intersection of **economics, AI, and decision intelligence**
+- I care a lot about **clarity, reproducibility, and rigorous reasoning**
 
 ---
 
-## GitHub Analytics
+## Current Direction
 
-<div align="center">
+```text
+Forecasting
+├── Time series
+├── Nowcasting
+└── Economic indicators
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=haminh109&show_icons=true&hide_border=true&rank_icon=github" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=haminh109&layout=compact&hide_border=true" />
+Applied AI
+├── Structured data ML
+├── Fraud analytics
+└── Decision-support systems
 
-</div>
+Engineering
+├── Research workflows
+├── Model validation
+└── Practical deployment mindset
 
----
+<div align="center"> <img height="170" src="https://github-readme-stats.vercel.app/api?username=haminh109&show_icons=true&hide_border=true&rank_icon=github" /> <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=haminh109&layout=compact&hide_border=true" /> </div> <div align="center"> <img src="https://streak-stats.demolab.com?user=haminh109&hide_border=true" /> </div> <div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=haminh109&hide_border=true&radius=12" /> </div>
 
-## Philosophy
-
-> I aim to build systems that are not only technically sound, but also useful in real decision environments.  
-> My long-term goal is to grow into a researcher-engineer who can bridge **data**, **models**, and **impact**.
-
----
-
-## Connect With Me
-
-<p>
-  <a href="https://github.com/haminh109">GitHub</a> •
-  <a href="https://www.linkedin.com/in/minhhaquang109">LinkedIn</a> •
-  <a href="https://orcid.org/0009-0009-0143-5042">ORCID</a> •
-  <a href="https://www.facebook.com/haaminh109">Facebook</a>
-</p>
