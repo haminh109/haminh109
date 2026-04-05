@@ -93,5 +93,5 @@
 ###
 
 <div>
-  <img style="width:100%" src="https://capsule-render.vercel.app/api?type=soft&height=90&section=header&color=0:0f2027,50:203a43,100:2c5364" />
+  <img style="width:100%" src="https://capsule-render.vercel.app/api?type=waving&height=80&section=header&reversal=false&fontSize=0&fontColor=FFFFFF&fontAlign=50&fontAlignY=0&stroke=-&descSize=0&descAlign=50&descAlignY=50&color=576dc3" />
 </div>
