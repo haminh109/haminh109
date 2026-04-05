@@ -80,19 +80,21 @@
 </div>
 
 ## Fun zone
-
 <table>
   <tr>
     <td align="center">
-      <b>Breakout</b><br><br>
+      <b>Fun Zone</b><br><br>
+
+      <b>Breakout</b><br>
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-dark.svg">
         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-light.svg">
         <img alt="Breakout Game" src="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-light.svg">
       </picture>
-    </td>
-    <td align="center">
-      <b>Pac-Man</b><br><br>
+
+      <br><br>
+
+      <b>Pac-Man</b><br>
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/output/pacman-contribution-graph-dark.svg">
         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/output/pacman-contribution-graph.svg">
