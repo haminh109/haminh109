@@ -27,3 +27,6 @@ I have a strong passion for data analysis, time series forecasting, and competit
 - 🎯 Previously organized the online Quiz Tết Nguyên đán 2026 for the Hoc24 & OLM communities and researched factors affecting Customer Satisfaction in Online Educational Platforms.
 
 ### 🐍 GitHub Activity
+<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=haminh109&theme=github-compact" alt="Hoạt động GitHub của tôi" />
+</a>
