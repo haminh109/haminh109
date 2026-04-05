@@ -50,43 +50,53 @@ My goal is to build systems that are not only technically sound, but also useful
 - **Applied AI systems** for decision support
 
 ---
-## Tech Stack
+###
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <h3 align="left">Languages</h3>
-      <p align="left">
-        <a href="https://www.python.org/">
-          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-        </a>
-        <a href="https://www.r-project.org/">
-          <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
-        </a>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-        </a>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-        </a>
-      </p>
-    </td>
-    <td valign="top" width="50%">
-      <h3 align="left">Tools</h3>
-      <p align="left">
-        <a href="https://jupyter.org/">
-          <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-        </a>
-        <a href="https://streamlit.io/">
-          <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
-        </a>
-        <a href="https://github.com/">
-          <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
+<h4 align="left">Languages & Frameworks</h4>
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo" />
+  <img width="16" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="30" alt="rust logo" />
+  <img width="16" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="cplusplus logo" />
+  <img width="16" />
+  <img src="https://cdn.brandfetch.io/idwPNp71Xw/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B" height="30" alt="plotly logo" />
+  <img width="16" />
+  <img src="https://cdn.simpleicons.org/polars" height="35" alt="polars logo" />
+  <img width="16" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo" />
+  <img width="16" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo" />
+  <img width="16" />
+  <img src="https://skillicons.dev/icons?i=powershell" height="30" alt="powershell logo" />
+  <img width="16" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="30" alt="flutter logo" />
+</div>
+
+###
+
+<h4 align="left">Tools & Platforms</h4>
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo" />
+  <img width="16" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Microsoft_Office_Excel_%282025%E2%80%93present%29.svg" height="30" alt="excel logo" />
+  <img width="16" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Google_Gemini_icon_2025.svg" height="30" alt="Gemini logo" />
+  <img width="16" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Claude_AI_symbol.svg/1280px-Claude_AI_symbol.svg.png" height="30" alt="Claude logo" />
+  <img width="16" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" height="30" alt="jupyter logo" />
+  <img width="16" />
+  <img src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/refs/heads/main/SVG/Power-BI.svg" height="30" alt="power bi logo" />
+  <img width="16" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="30" alt="windows logo" />
+</div>
+
+<br>
+
+###
 
 ---
 
