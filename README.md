@@ -1,7 +1,3 @@
-<div align="center">
-  <img height="150" src="./assets/header.gif" alt="terminal typing gif" />
-</div>
-
 ###
 
 <p align="left">Hi, I'm <b>Ha Quang Minh</b>! Currently a <b>Data Science in Economics and Business</b> student at National Economics University in Vietnam.</p>
@@ -11,10 +7,6 @@
 <p align="left">Most of what I build sits somewhere between <b>research</b> and <b>implementation</b>: macroeconomic nowcasting, fraud detection, data-driven applications, and tools that make analysis more usable in practice.</p>
 
 <br>
-
-<div align="center">
-  <img height="150" src=".SMS conversation, AI BOT in MedTech.jpg" alt="terminal typing gif" />
-</div>
 
 ###
 
@@ -100,4 +92,4 @@
 
 ###
 
-![Data Stream](https://gradient-svg-generator.vercel.app/api/svg?text=Ha%20Quang%20Minh&template=data-stream&height=90)
+![Ocean Wave](https://gradient-svg-generator.vercel.app/api/svg?text=Ha%20Quang%20Minh&template=ocean-wave&height=90)
