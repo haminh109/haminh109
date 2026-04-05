@@ -82,9 +82,9 @@
 ## Fun zone
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/fun-zone/images/fun-zone-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/fun-zone/images/fun-zone-light.svg">
-  <img alt="Unified Fun Zone" src="https://raw.githubusercontent.com/haminh109/haminh109/fun-zone/images/fun-zone-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-light.svg">
+  <img alt="Breakout Game" src="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-light.svg">
 </picture>
 
 ![Thành phố 3D](profile-3d-contrib/profile-south-season-animate.svg)
