@@ -1,0 +1,36 @@
+name: Generate GitHub Breakout
+
+on:
+  schedule:
+    # Lên lịch tự động cập nhật hình ảnh vào 0h mỗi ngày
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Cho phép bạn bấm nút chạy bằng tay bất cứ lúc nào
+
+permissions:
+  contents: write # Cấp quyền để bot tự động lưu ảnh vào repo
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Breakout SVGs
+        uses: cyprieng/github-breakout@v1
+        with:
+          github_username: ${{ github.repository_owner }}
+          output_path: "./images/"
+
+      - name: Push images to github-breakout branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          # Tạo và chuyển sang nhánh github-breakout
+          git checkout -B github-breakout
+          # Đưa thư mục ảnh vào git
+          git add ./images/
+          # Tạo commit mới (bỏ qua nếu không có gì thay đổi)
+          git commit -m "Tạo/Cập nhật tự động ảnh Breakout Game" || exit 0
+          # Đẩy mạnh lên nhánh github-breakout
+          git push -f origin github-breakout
