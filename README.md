@@ -4,19 +4,27 @@ I'm **Hà Quang Minh**! Currently a 3rd-year student majoring in Data Science in
 
 I have a strong passion for data analysis, time series forecasting, and competitive programming. I enjoy working with real-world datasets and building statistical models to solve complex problems, from scientific research to practical data pipelines.
 
-### 🛠 Languages & Frameworks
+### Languages & Frameworks
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=cpp,r,python" alt="Languages" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" height="40" alt="R" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="40" alt="Python" />
 </p>
 
-### 💻 Tools & Platforms
+### Tools & Platforms
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=jupyter,macos" alt="Jupyter & macOS" />
-  <img src="https://img.shields.io/badge/-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=black" alt="Power BI" />
+  <img src="https://cdn.simpleicons.org/powerbi/F2C811" height="40" alt="Power BI" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" height="40" alt="Jupyter" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" height="40" alt="macOS" />
 </p>
 
 ### 📜 Certifications
 - **Microsoft Certified: Power BI Data Analyst Associate (PL-300)**
+- **IBM Data Science**
 
 ### 🔭 Some personal info & what I'm working on
 - 📈 Currently conducting scientific research (NCKH) focusing on **Portfolio optimization and index tracking** using meta-heuristic methods.
