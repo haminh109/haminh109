@@ -1,0 +1,48 @@
+name: generate unified fun zone
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate unified SVG
+        run: python scripts/generate_fun_zone.py haminh109
+
+      - name: Prepare files
+        run: |
+          mkdir -p /tmp/fun-zone
+          cp generated/*.svg /tmp/fun-zone/
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Publish to fun-zone branch
+        run: |
+          git checkout --orphan fun-zone
+          git rm -rf . || true
+          mkdir -p images
+          cp /tmp/fun-zone/*.svg images/
+          git add images
+          git commit -m "chore: update unified fun zone" || echo "No changes to commit"
+          git push --force origin fun-zone
