@@ -1,36 +1,43 @@
-name: Generate GitHub Breakout
+name: generate breakout svg
 
 on:
   schedule:
-    # Lên lịch tự động cập nhật hình ảnh vào 0h mỗi ngày
-    - cron: "0 0 * * *"
-  workflow_dispatch: # Cho phép bạn bấm nút chạy bằng tay bất cứ lúc nào
-
-permissions:
-  contents: write # Cấp quyền để bot tự động lưu ảnh vào repo
+    - cron: "0 */24 * * *"
+  workflow_dispatch:
 
 jobs:
-  build:
+  generate-svg:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate Breakout SVGs
+      - name: Generate SVG
         uses: cyprieng/github-breakout@v1
         with:
           github_username: ${{ github.repository_owner }}
-          output_path: "./images/"
 
-      - name: Push images to github-breakout branch
+      - name: Move generated SVGs to temp
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # Tạo và chuyển sang nhánh github-breakout
-          git checkout -B github-breakout
-          # Đưa thư mục ảnh vào git
-          git add ./images/
-          # Tạo commit mới (bỏ qua nếu không có gì thay đổi)
-          git commit -m "Tạo/Cập nhật tự động ảnh Breakout Game" || exit 0
-          # Đẩy mạnh lên nhánh github-breakout
-          git push -f origin github-breakout
+          mkdir -p /tmp/breakout-images
+          mv output/light.svg /tmp/breakout-images/breakout-light.svg
+          mv output/dark.svg /tmp/breakout-images/breakout-dark.svg
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and force-push SVGs to target branch
+        run: |
+          git checkout --orphan github-breakout
+          git rm -rf .
+          mkdir images
+          mv /tmp/breakout-images/* images/
+          git add images
+          git commit -m "chore: update GitHub breakout SVGs" || echo "No changes to commit"
+          git push --force origin github-breakout
