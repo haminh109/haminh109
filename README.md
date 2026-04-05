@@ -50,22 +50,43 @@ My goal is to build systems that are not only technically sound, but also useful
 - **Applied AI systems** for decision support
 
 ---
-## Languages
+## Tech Stack
 
-<p align="left">
-  <img src="https://cdn.simpleicons.org/python?viewbox=auto&size=20" width="34" height="34" alt="Python" />
-  <img src="https://cdn.simpleicons.org/r?viewbox=auto&size=20" width="34" height="34" alt="R" />
-  <img src="https://cdn.simpleicons.org/html5?viewbox=auto&size=20" width="34" height="34" alt="HTML5" />
-  <img src="https://cdn.simpleicons.org/css?viewbox=auto&size=20" width="34" height="34" alt="CSS3" />
-</p>
-
-## Tools
-
-<p align="left">
-  <img src="https://cdn.simpleicons.org/jupyter?viewbox=auto&size=20" width="34" height="34" alt="Jupyter" />
-  <img src="https://cdn.simpleicons.org/streamlit?viewbox=auto&size=20" width="34" height="34" alt="Streamlit" />
-  <img src="https://cdn.simpleicons.org/github?viewbox=auto&size=20" width="34" height="34" alt="GitHub" />
-</p>
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h3 align="left">Languages</h3>
+      <p align="left">
+        <a href="https://www.python.org/">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+        </a>
+        <a href="https://www.r-project.org/">
+          <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
+        </a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+        </a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+        </a>
+      </p>
+    </td>
+    <td valign="top" width="50%">
+      <h3 align="left">Tools</h3>
+      <p align="left">
+        <a href="https://jupyter.org/">
+          <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
+        </a>
+        <a href="https://streamlit.io/">
+          <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+        </a>
+        <a href="https://github.com/">
+          <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
