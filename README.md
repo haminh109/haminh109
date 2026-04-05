@@ -44,8 +44,6 @@
   <img width="16" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo" />
   <img width="16" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo" />
-  <img width="16" />
   <img src="https://cdn.simpleicons.org/streamlit" height="30" alt="streamlit logo" />
 </div>
 
@@ -64,7 +62,6 @@
   <img width="16" />
   <img src="https://cdn.simpleicons.org/github" height="30" alt="github logo" />
   <img width="16" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="30" alt="windows logo" />
 </div>
 
 <br>
