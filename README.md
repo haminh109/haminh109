@@ -6,11 +6,11 @@ I have a strong passion for data analysis, time series forecasting, and competit
 
 ### Languages & Frameworks
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++" />
+  <img src="https://cdn.simpleicons.org/c++?viewbox=auto&size=20" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/r/r-original.svg" height="40" alt="R" />
+  <img src="https://cdn.simpleicons.org/r?viewbox=auto&size=20" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="40" alt="Python" />
+  <img src="https://cdn.simpleicons.org/python?viewbox=auto&size=20" />
 </p>
 
 ### Tools & Platforms
