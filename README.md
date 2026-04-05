@@ -12,6 +12,10 @@
 
 <br>
 
+<div align="center">
+  <img height="150" src=".SMS conversation, AI BOT in MedTech.jpg" alt="terminal typing gif" />
+</div>
+
 ###
 
 <h4 align="left">Languages & Frameworks</h4>
