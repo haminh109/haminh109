@@ -10,7 +10,8 @@ CELL = 12
 GAP = 3
 PAD_X = 18
 PAD_Y = 18
-TITLE_H = 26
+TITLE_H = 40
+
 def fetch_contributions(username: str):
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
@@ -204,18 +205,19 @@ def breakout_ball_points(left_cols):
     ]
 
 def paddle_positions(left_cols):
-    base_y = cell_y(6) + 1
-    w = CELL * 2.8 + GAP * 1.8
+    paddle_h = 5.2
+    base_y = cell_y(6) + (CELL - paddle_h) / 2
+    w = CELL * 2.4 + GAP * 1.4
     xs = [
         cell_x(1),
-        cell_x(4),
-        cell_x(7),
+        cell_x(3),
+        cell_x(6),
         cell_x(max(2, left_cols - 6)),
         cell_x(max(1, left_cols - 9)),
-        cell_x(5),
+        cell_x(4),
         cell_x(2),
     ]
-    return xs, base_y, w
+    return xs, base_y, w, paddle_h
 
 def ghost_shape(x, y, color):
     return f"""
@@ -264,7 +266,21 @@ def render_svg(grid, cols, mode: str):
     parts = []
     parts.append(f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" role="img" aria-label="Unified GitHub fun zone">""")
     parts.append(f"""<rect width="{width}" height="{height}" fill="{t["bg"]}"/>""")
-    parts.append(f"""<text x="{PAD_X}" y="{PAD_Y + 12}" fill="{t["title"]}" font-family="system-ui,Segoe UI,Arial" font-size="14" font-weight="700">Fun Zone — Breakout × Pac-Man</text>""")
+    board_x = PAD_X
+    board_y = cell_y(0)
+    board_w = cols * (CELL + GAP) - GAP
+    board_h = ROWS * (CELL + GAP) - GAP
+    
+    parts.append(f"""
+    <defs>
+      <clipPath id="board-clip">
+        <rect x="{board_x}" y="{board_y}" width="{board_w}" height="{board_h}" rx="6"/>
+      </clipPath>
+    </defs>
+    """)
+
+    
+    parts.append(f"""<text x="{PAD_X}" y="{PAD_Y + 14}" fill="{t["title"]}" font-family="system-ui,Segoe UI,Arial" font-size="14" font-weight="700">Fun Zone — Breakout × Pac-Man</text>""")
 
     parts.append("<g>")
     for r in range(ROWS):
@@ -279,11 +295,12 @@ def render_svg(grid, cols, mode: str):
     sep_x = cell_x(left_cols) - GAP // 2
     parts.append(f"""<line x1="{sep_x}" y1="{cell_y(0)-4}" x2="{sep_x}" y2="{cell_y(6)+CELL+4}" stroke="{t["sep"]}" stroke-width="1"/>""")
 
-    parts.append(f"""<text x="{cell_x(0)}" y="{cell_y(0)-8}" fill="{t["title"]}" font-family="system-ui,Segoe UI,Arial" font-size="10" opacity="0.9">BREAKOUT</text>""")
-    parts.append(f"""<text x="{cell_x(left_cols+1)}" y="{cell_y(0)-8}" fill="{t["title"]}" font-family="system-ui,Segoe UI,Arial" font-size="10" opacity="0.9">PAC-MAN</text>""")
+    label_y = PAD_Y + 30
+    parts.append(f"""<text x="{cell_x(0)}" y="{label_y}" fill="{t["title"]}" font-family="system-ui,Segoe UI,Arial" font-size="10" opacity="0.9">BREAKOUT</text>""")
+    parts.append(f"""<text x="{cell_x(left_cols+1)}" y="{label_y}" fill="{t["title"]}" font-family="system-ui,Segoe UI,Arial" font-size="10" opacity="0.9">PAC-MAN</text>""")
 
     bricks = breakout_bricks(left_cols)
-    parts.append("<g>")
+    parts.append("""<g clip-path="url(#board-clip)">""")
     for i, (c, r) in enumerate(bricks):
         x = cell_x(c) + 1.2
         y = cell_y(r) + 1.2
@@ -292,10 +309,10 @@ def render_svg(grid, cols, mode: str):
         )
     parts.append("</g>")
 
-    paddle_xs, paddle_y, paddle_w = paddle_positions(left_cols)
+    paddle_xs, paddle_y, paddle_w, paddle_h = paddle_positions(left_cols)
     values = ";".join(f"{x:.1f}" for x in paddle_xs)
     parts.append(f"""
-    <rect x="{paddle_xs[0]:.1f}" y="{paddle_y:.1f}" width="{paddle_w:.1f}" height="5.2" rx="2.6" fill="{t["breakout_paddle"]}">
+    <rect x="{paddle_xs[0]:.1f}" y="{paddle_y:.1f}" width="{paddle_w:.1f}" height="{paddle_h:.1f}" rx="{paddle_h/2:.1f}" fill="{t["breakout_paddle"]}">
       <animate attributeName="x" values="{values}" dur="5.8s" repeatCount="indefinite"/>
     </rect>
     """)
