@@ -2,6 +2,7 @@ from pathlib import Path
 import urllib.request
 import datetime as dt
 import re
+import os
 import sys
 
 ROWS = 7
