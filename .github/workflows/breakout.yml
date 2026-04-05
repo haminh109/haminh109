@@ -41,3 +41,10 @@ jobs:
           git add images
           git commit -m "chore: update GitHub breakout SVGs" || echo "No changes to commit"
           git push --force origin github-breakout
+
+with:
+  github_username: ${{ github.repository_owner }}
+  enable_ghost_bricks: false
+  paddle_color: "#58a6ff"
+  ball_color: "#ffa657"
+  bricks_colors: "#0e4429,#006d32,#26a641,#39d353,#9be9a8"
