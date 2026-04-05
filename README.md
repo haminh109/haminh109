@@ -73,11 +73,6 @@
 
 ### GitHub activity
 
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=haminh109&show_icons=true&hide_border=true&rank_icon=github" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=haminh109&layout=compact&hide_border=true" />
-</div>
-
 <br>
 
 <div align="center">
@@ -90,6 +85,7 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=haminh109&hide_border=true&radius=12" />
 </div>
 
+![Thành phố 3D](profile-3d-contrib/profile-season-animate.svg)
 ###
 
 <div>
