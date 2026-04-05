@@ -85,7 +85,7 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=haminh109&hide_border=true&radius=12" />
 </div>
 
-![Thành phố 3D](profile-3d-contrib/profile-season-animate.svg)
+![Thành phố 3D](profile-3d-contrib/profile-gitblock.svg)
 ###
 
 <div>
