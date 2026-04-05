@@ -1,6 +1,3 @@
-<div align="center">
-  <img height="140" src="https://cdn3.emoji.gg/emojis/39033-laptop.gif" />
-</div>
 
 ###
 
