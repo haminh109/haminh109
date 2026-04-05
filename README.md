@@ -16,8 +16,6 @@
 
 <br>
 
-<h3 align="left">Not an expert by any means, but...</h3>
-
 ###
 
 <h4 align="left">Languages & Frameworks</h4>
