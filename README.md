@@ -86,10 +86,3 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-light.svg">
   <img alt="Breakout Game" src="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-light.svg">
 </picture>
-
-![Thành phố 3D](profile-3d-contrib/profile-south-season-animate.svg)
-###
-
-<div>
-  <img style="width:100%" src="https://capsule-render.vercel.app/api?type=soft&height=90&section=header&color=0:0f2027,50:203a43,100:2c5364" />
-</div>
