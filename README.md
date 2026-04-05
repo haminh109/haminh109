@@ -100,6 +100,4 @@
 
 ###
 
-<div>
-  <img style="width:100%" src="https://capsule-render.vercel.app/api?type=waving&height=80&section=header&reversal=false&fontSize=0&fontColor=FFFFFF&fontAlign=50&fontAlignY=0&stroke=-&descSize=0&descAlign=50&descAlignY=50&color=576dc3" />
-</div>
+![Data Stream](https://gradient-svg-generator.vercel.app/api/svg?text=Ha%20Quang%20Minh&template=data-stream&height=90)
