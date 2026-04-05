@@ -81,19 +81,26 @@
 
 ## Fun zone
 
-### Breakout
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-light.svg">
-  <img alt="Breakout Game" src="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-light.svg">
-</picture>
-
-### Pac-Man
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/haminh109/haminh109/output/pacman-contribution-graph.svg">
-</picture>
+<table>
+  <tr>
+    <td align="center">
+      <b>Breakout</b><br><br>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-light.svg">
+        <img alt="Breakout Game" src="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-light.svg">
+      </picture>
+    </td>
+    <td align="center">
+      <b>Pac-Man</b><br><br>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/output/pacman-contribution-graph-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/haminh109/haminh109/output/pacman-contribution-graph.svg">
+        <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/haminh109/haminh109/output/pacman-contribution-graph.svg">
+      </picture>
+    </td>
+  </tr>
+</table>
 
 ![Thành phố 3D](profile-3d-contrib/profile-south-season-animate.svg)
 ###
