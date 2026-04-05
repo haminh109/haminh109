@@ -1,11 +1,9 @@
-
+<div align="center">
+  <img height="150" src="./assets/header.gif" alt="terminal typing gif" />
+</div>
 ###
 
-<h2 align="center">Hi there 👀</h2>
-
-###
-
-<p align="left">Hey, I'm <b>Ha Quang Minh</b>! Currently a <b>Data Science in Economics and Business</b> student at National Economics University in Vietnam.</p>
+<p align="left">Hi, I'm <b>Ha Quang Minh</b>! Currently a <b>Data Science in Economics and Business</b> student at National Economics University in Vietnam.</p>
 
 <p align="left">I'm especially interested in <b>AI, machine learning, econometrics, forecasting, and practical data systems</b>. I like building things that go beyond polished demos — projects that can actually help with <b>real decisions, real workflows, and real data problems</b>.</p>
 
