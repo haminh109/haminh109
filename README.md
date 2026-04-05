@@ -85,7 +85,7 @@
   <img alt="Breakout Game" src="https://raw.githubusercontent.com/haminh109/haminh109/github-breakout/images/breakout-light.svg">
 </picture>
 
-![Thành phố 3D](profile-3d-contrib/profile-night-rainbow.svg)
+![Thành phố 3D](profile-3d-contrib/profile-south-season-animate.svg)
 ###
 
 <div>
