@@ -50,25 +50,21 @@ My goal is to build systems that are not only technically sound, but also useful
 - **Applied AI systems** for decision support
 
 ---
-
-## Languages & Frameworks
+## Languages
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,rust,cpp,r,ts,react,flutter,fastapi&perline=8" />
+  <img src="https://cdn.simpleicons.org/python?viewbox=auto&size=20" width="34" height="34" alt="Python" />
+  <img src="https://cdn.simpleicons.org/r?viewbox=auto&size=20" width="34" height="34" alt="R" />
+  <img src="https://cdn.simpleicons.org/html5?viewbox=auto&size=20" width="34" height="34" alt="HTML5" />
+  <img src="https://cdn.simpleicons.org/css?viewbox=auto&size=20" width="34" height="34" alt="CSS3" />
 </p>
 
----
-
-## Tools & Platforms
+## Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=vscode,git,github,jupyter,postgresql,linux,windows&perline=8" />
-</p>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" />
+  <img src="https://cdn.simpleicons.org/jupyter?viewbox=auto&size=20" width="34" height="34" alt="Jupyter" />
+  <img src="https://cdn.simpleicons.org/streamlit?viewbox=auto&size=20" width="34" height="34" alt="Streamlit" />
+  <img src="https://cdn.simpleicons.org/github?viewbox=auto&size=20" width="34" height="34" alt="GitHub" />
 </p>
 
 ---
